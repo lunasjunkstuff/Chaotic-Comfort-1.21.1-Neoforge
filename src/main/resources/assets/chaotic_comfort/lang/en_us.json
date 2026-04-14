@@ -1,0 +1,14 @@
+{
+  "itemGroup.chaotic_comfort": "Chaotic Comfort",
+
+  "block.examplemod.example_block": "Example Block",
+
+  "item.chaotic_comfort.golden_nether_star": "Golden Nether Star",
+
+  "item.chaotic_comfort.electric_guitar": "Electric Guitar",
+  "tooltip.chaotic_comfort.electric_guitar.tooltip": "i hate not being able to do 2d textures in inventory(i just suck(fabric is better))",
+  "item.chaotic_comfort.glitchy_electric_guitar": "§5§k§lElectric Guitar§r§r§r",
+  "tooltip.chaotic_comfort.glitchy_electric_guitar.tooltip":"§5You´re not supposed to be here§r",
+
+  "entity.minecraft.villager.chaotic_comfort.guy": "Guy"
+}

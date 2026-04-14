@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "chaotic_comfort:item/glitchy_electric_guitar_3d"
+  },
+  "perspectives": {
+    "gui": {
+    "parent": "chaotic_comfort:item/glitchy_electric_guitar_2d"
+    },
+    "ground": {
+      "parent": "chaotic_comfort:item/glitchy_electric_guitar_2d"
+    }
+  }
+}

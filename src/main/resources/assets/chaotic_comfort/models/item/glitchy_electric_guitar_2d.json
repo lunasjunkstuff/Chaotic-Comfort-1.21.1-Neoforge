@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "chaotic_comfort:glitchy_electric_guitar_2d"
+  }
+}
