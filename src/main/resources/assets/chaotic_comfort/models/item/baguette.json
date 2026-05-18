@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "chaotic_comfort:item/baguette_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "chaotic_comfort:item/baguette_2d"
+    }
+  }
+}
