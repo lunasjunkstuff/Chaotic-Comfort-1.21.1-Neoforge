@@ -97,18 +97,6 @@ public class ModEvents {
         List<VillagerTrades.ItemListing> rareTrades = event.getRareTrades();
 
         rareTrades.add((entity, randomSource) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 16),
-                new ItemStack(ModItems.RULER_OF_MY_HEART_MUSIC_DISC.get(), 1), 1, 3, 3
-        ));
-        rareTrades.add((entity, randomSource) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 16),
-                new ItemStack(ModItems.CURE_MUSIC_DISC.get(), 1), 1, 3, 3
-        ));
-        rareTrades.add((entity, randomSource) -> new MerchantOffer(
-                new ItemCost(Items.EMERALD, 16),
-                new ItemStack(ModItems.KARMA_MUSIC_DISC.get(), 1), 1, 3, 3
-        ));
-        rareTrades.add((entity, randomSource) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD, 13),
                 new ItemStack(ModItems.PUFFER_SMITHING_TEMPLATE.get(),1), 4, 67, 2.3f
         ));

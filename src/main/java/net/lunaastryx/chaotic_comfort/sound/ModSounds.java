@@ -20,13 +20,6 @@ public class ModSounds {
     public static final Supplier<SoundEvent> POMMES_ROT_WEISS = registerSoundEvent("pommes_rot_weiss");
     public static final ResourceKey<JukeboxSong> POMMES_ROT_WEISS_KEY = createSong("pommes_rot_weiss");
 
-    public static final Supplier<SoundEvent> RULER_OF_MY_HEART = registerSoundEvent("romh");
-    public static final ResourceKey<JukeboxSong> RULER_OF_MY_HEART_KEY = createSong("romh");
-    public static final Supplier<SoundEvent> CURE = registerSoundEvent("cure");
-    public static final ResourceKey<JukeboxSong> CURE_KEY = createSong("cure");
-    public static final Supplier<SoundEvent> KARMA = registerSoundEvent("karma");
-    public static final ResourceKey<JukeboxSong> KARMA_KEY = createSong("karma");
-
     public static final Supplier<SoundEvent> SOLSTICE = registerSoundEvent("solstice");
     public static final ResourceKey<JukeboxSong> SOLSTICE_KEY = createSong("solstice");
     public static final Supplier<SoundEvent> ELEVENTH_HOUR = registerSoundEvent("eleventh_hour");

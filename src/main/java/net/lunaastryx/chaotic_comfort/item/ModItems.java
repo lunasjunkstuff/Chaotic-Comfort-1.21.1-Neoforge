@@ -20,13 +20,6 @@ public class ModItems {
     public static final DeferredItem<Item> POMMES_ROT_WEISS_MUSIC_DISC = ITEMS.register("pommes_rot_weiss_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.POMMES_ROT_WEISS_KEY).stacksTo(1)));
 
-    public static final DeferredItem<Item> RULER_OF_MY_HEART_MUSIC_DISC = ITEMS.register("romh_music_disc",
-            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.RULER_OF_MY_HEART_KEY).stacksTo(1)));
-    public static final DeferredItem<Item> CURE_MUSIC_DISC = ITEMS.register("cure_music_disc",
-            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CURE_KEY).stacksTo(1)));
-    public static final DeferredItem<Item> KARMA_MUSIC_DISC = ITEMS.register("karma_music_disc",
-            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.KARMA_KEY).stacksTo(1)));
-
     public static final DeferredItem<Item> SOLSTICE_MUSIC_DISC = ITEMS.register("solstice_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SOLSTICE_KEY).stacksTo(1)));
     public static final DeferredItem<Item> ELEVENTH_HOUR_MUSIC_DISC = ITEMS.register("eleventh_hour_music_disc",
