@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #P",
+    "#P ",
+    "P  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "chaotic_comfort:electric_guitar"
+  }
+}

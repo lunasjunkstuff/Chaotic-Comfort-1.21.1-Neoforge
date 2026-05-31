@@ -24,14 +24,5 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ELEVENTH_HOUR_MUSIC_DISC.get());
         basicItem(ModItems.SOLSTICE_MUSIC_DISC.get());
 
-        wallItem(ModBlocks.CALCITE_WALL, ModBlocks.DEV_CALCITE);
-        wallItem(ModBlocks.DRIPSTONE_WALL, ModBlocks.DEV_DRIPSTONE_BLOCK);
-        wallItem(ModBlocks.SMOOTH_BASALT_WALL, ModBlocks.DEV_SMOOTH_BASALT);
-    }
-
-    public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
-        this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
-                .texture("wall",  ResourceLocation.fromNamespaceAndPath(ChaoticComfort.MOD_ID,
-                        "block/" + baseBlock.getId().getPath()));
     }
 }

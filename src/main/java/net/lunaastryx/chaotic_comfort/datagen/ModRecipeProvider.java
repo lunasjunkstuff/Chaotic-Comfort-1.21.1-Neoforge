@@ -23,19 +23,5 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
 
-        stairBuilder(ModBlocks.CALCITE_STAIRS.get(), Ingredient.of(Blocks.CALCITE)).group("calcite")
-                .unlockedBy("has_calcite", has(Blocks.CALCITE)).save(recipeOutput);
-        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_SLAB.get(), Blocks.CALCITE);
-        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_WALL.get(), Blocks.CALCITE);
-
-        stairBuilder(ModBlocks.DRIPSTONE_STAIRS.get(), Ingredient.of(Blocks.DRIPSTONE_BLOCK)).group("dripstone")
-                .unlockedBy("has_dripstone", has(Blocks.DRIPSTONE_BLOCK)).save(recipeOutput);
-        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DRIPSTONE_SLAB.get(), Blocks.DRIPSTONE_BLOCK);
-        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DRIPSTONE_WALL.get(), Blocks.DRIPSTONE_BLOCK);
-
-        stairBuilder(ModBlocks.SMOOTH_BASALT_STAIRS.get(), Ingredient.of(Blocks.SMOOTH_BASALT)).group("smooth_basalt")
-                .unlockedBy("has_smooth_basalt", has(Blocks.SMOOTH_BASALT)).save(recipeOutput);
-        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_SLAB.get(), Blocks.SMOOTH_BASALT);
-        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_WALL.get(), Blocks.SMOOTH_BASALT);
     }
 }

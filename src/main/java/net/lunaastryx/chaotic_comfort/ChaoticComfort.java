@@ -67,22 +67,6 @@ public class ChaoticComfort {
             event.accept(ModItems.SOLSTICE_MUSIC_DISC);
             event.accept(ModItems.ELEVENTH_HOUR_MUSIC_DISC);
         }
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(Blocks.CALCITE);
-            event.accept(ModBlocks.CALCITE_STAIRS);
-            event.accept(ModBlocks.CALCITE_SLAB);
-            event.accept(ModBlocks.CALCITE_WALL);
-
-            event.accept(Blocks.DRIPSTONE_BLOCK);
-            event.accept(ModBlocks.DRIPSTONE_STAIRS);
-            event.accept(ModBlocks.DRIPSTONE_SLAB);
-            event.accept(ModBlocks.DRIPSTONE_WALL);
-
-            event.accept(Blocks.SMOOTH_BASALT);
-            event.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
-            event.accept(ModBlocks.SMOOTH_BASALT_SLAB);
-            event.accept(ModBlocks.SMOOTH_BASALT_WALL);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
